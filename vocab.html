@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Vocabulary</title>
+	<script src='jquery-1.11.1.js'></script>
+	<script src='vocab.js'></script>
+	<script src='words.js'></script>
+	<link rel="stylesheet" type="text/css" href="vocab.css">
+</head>
+<body>
+	<div class='wordStyle'>
+		<span><label>Word :</label></span>
+		<span id='word'></span>
+	</div>
+	<div class='wordStyle'>	
+		<span><label class='toggleMeaning'>Meaning :</label></span>
+		<span id='meaning'></span>
+	</div>
+	<div class='pictureStyle'>
+		<span><label class='togglePicture'>Picture :</label></span>
+		<span id='picture'></span>
+	</div>
+	<div class='controlStyle'>
+		<span><label>Level :</label></span>
+		<span id='level'></span>
+		<span id='#pronunciation'>
+			<img id='speaker' src='images/Speaker.png' accesskey="s" alt='Pronunciation' height="50" width="50"/>
+			<audio id='audio' src="" preload="auto"></audio>
+		</span>
+		<span><button id='previous' class="button-xlarge" accesskey="p">Previous</button></span>
+		<span><button id='next' class="button-xlarge" accesskey="n">Next</button></span>
+	</div>
+</body>
+<html>

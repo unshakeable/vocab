@@ -1,0 +1,45 @@
+
+.wordStyle{
+	display: table;
+  height: 5%
+  width: 100%;
+}
+
+.pictureStyle{
+  height: 80%
+}
+
+#picture{
+  height : 400;
+}
+
+.controlStyle{
+	display: table;
+  height: 10%
+  width: 100%;
+}
+
+.controlStyle > * {
+	display: table-cell;
+  width: 20%;
+}
+
+html *
+{
+ font-size: 1.1em !important;
+ color: #000 !important;
+ font-family: Avenir Next !important;
+ padding: 2;
+}
+
+.button-xlarge {
+  font-size: 125%;
+  width: 200;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-weight: bold;
+}
